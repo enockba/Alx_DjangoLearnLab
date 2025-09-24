@@ -1,5 +1,8 @@
 <!-- register.html -->
+<<<<<<< HEAD
 {% load static %}
+=======
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -9,6 +12,7 @@
 </head>
 <body>
     <h1>Register</h1>
+<<<<<<< HEAD
 
     {% if form.errors %}
         <ul style="color: red;">
@@ -20,12 +24,20 @@
         </ul>
     {% endif %}
 
+=======
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793
     <form method="post">
         {% csrf_token %}
         {{ form.as_p }}
         <button type="submit">Register</button>
     </form>
+<<<<<<< HEAD
 
     <p>Already have an account? <a href="{% url 'login' %}">Log in</a></p>
 </body>
 </html>
+=======
+</body>
+</html>
+
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793

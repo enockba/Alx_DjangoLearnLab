@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <!-- search_results.html -->
 <h1>Search Results for "{{ query }}"</h1>
 {% for post in posts %}
@@ -5,4 +6,13 @@
     <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
     <p>{{ post.content }}</p>
 </div>
+=======
+<!-- search_results.html -->
+<h1>Search Results for "{{ query }}"</h1>
+{% for post in posts %}
+<div>
+    <h2><a href="{% url 'post_detail' post.id %}">{{ post.title }}</a></h2>
+    <p>{{ post.content }}</p>
+</div>
+>>>>>>> 551691cb27b10bdeb2ae796c14459d19acbfefef
 {% endfor %}

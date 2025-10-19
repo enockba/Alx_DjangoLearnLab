@@ -1,16 +1,35 @@
+<<<<<<< HEAD
 <!-- list_books.html -->
 {% load static %}
+=======
+<<<<<<< HEAD
+<!-- list_books.html -->
+{% load static %}
+=======
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793
+>>>>>>> 551691cb27b10bdeb2ae796c14459d19acbfefef
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <title>List of Books</title>
+<<<<<<< HEAD
     <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+=======
+<<<<<<< HEAD
+    <link rel="stylesheet" href="{% static 'css/styles.css' %}">
+=======
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793
+>>>>>>> 551691cb27b10bdeb2ae796c14459d19acbfefef
 </head>
 <body>
     <h1>Books Available:</h1>
     <ul>
         {% for book in books %}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 551691cb27b10bdeb2ae796c14459d19acbfefef
             <li>{{ book.title }} by {{ book.author.name }}</li>
         {% empty %}
             <li>No books available.</li>
@@ -19,4 +38,16 @@
 
     <a href="{% url 'add-book' %}">Add a new book</a>
 </body>
+<<<<<<< HEAD
 </html>
+=======
+</html>
+=======
+        <li>{{ book.title }} by {{ book.author.name }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
+
+>>>>>>> eda9e73fc087c860423e0890d9594b1957ff7793
+>>>>>>> 551691cb27b10bdeb2ae796c14459d19acbfefef
